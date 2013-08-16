@@ -27,10 +27,10 @@ ul {
 	max-width: 700px;
 }
 .content a {
-	color: #393838;
+	color: #57db9b;
 }
 .content a:hover {
-	color: #2dd282
+	color: #57db9b;
 }
 @media (max-width: 1050px) {
 	.content {
@@ -84,7 +84,7 @@ nav a:hover {
 nav:after {
 	content: "";
 	display: table;
-	clear: both
+	clear: both;
 	}
 
 }
@@ -219,6 +219,13 @@ code {
 pre {
 	font-family: Monaco,Consolas,monospace;
 	overflow: auto
+}
+
+blockquote {
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 4px solid #ddd;
+	
 }
 .highlight {
 	-webkit-border-radius: 3px;
