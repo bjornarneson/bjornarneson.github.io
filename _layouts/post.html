@@ -15,8 +15,8 @@ layout: default
     {% endif %}
 
     {% if page.external-url %} 
-    	{% assign u = page.external-url | split: '/' %}
-    	<p>Quoted from: {{ u[3] }}. </p>
+    	{% assign url = page.external-url | split: '/' %}
+    	<p>Quoted from: {{ url[2] }}. </p>
     {% endif %}
 	
 </div>
