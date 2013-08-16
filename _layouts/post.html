@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="post-head group">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <h2 class="post-date">{{ page.date | date: "%b %d, %Y" }}</h2>
+  <h2 class="post-title">{{ page.title }}</h2>
+  <h3 class="post-date">{{ page.date | date: "%b %d, %Y" }}</h3>
 </div>
 
 <div class="post-body">
@@ -22,7 +22,7 @@ layout: default
 </div>
 
 <aside class="related">
-    <h4>(Possibly) Related Posts</h4>
+    <h3>(Possibly) Related Posts</h3>
     <ul class="posts">
       {% for post in site.related_posts limit:3 %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
