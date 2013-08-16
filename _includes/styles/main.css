@@ -3,11 +3,11 @@ body {
 	color: #333;
 	-webkit-font-smoothing: antialiased;
 	font-family: "Open Sans",sans-serif;
-	font-size: 17px
+	font-size: 16px
 }
 @media (max-width: 1050px) {
 	body {
-	font-size: 16px
+	font-size: 14px
 	}
 }
 @media (max-width: 630px) {
@@ -120,7 +120,7 @@ nav:after {
 .nav-links {
 	background: #57db9b;
 	padding: 0 50px;
-	font-size: 1.4em
+	font-size: 1em;
 }
 .nav-links a {
 	display: block;
@@ -132,6 +132,7 @@ nav:after {
 		margin: 0;
 		position: absolute;
 		right: 0
+		
 	}
 	.nav-links a {
 		display: block;
