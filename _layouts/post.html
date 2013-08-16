@@ -13,9 +13,10 @@ layout: default
    {% if page.tags %} 
    <p> Tagged: {{ page.tags | array_to_sentence_string }}. </p>
     {% endif %}
-    
+
     {% if page.external-url %} 
-    <p>Quoted from: {{ page.external-url }}. </p>
+    	{% assign u = page.external-url | split: '/' %}
+    	<p>Quoted from: {{ u[3] }}. </p>
     {% endif %}
 	
 </div>
