@@ -29,7 +29,7 @@ ul {
 .content a {
 	color: #393838;
 }
-.content a: hover {
+.content a:hover {
 	color: #2dd282
 }
 @media (max-width: 1050px) {
@@ -54,23 +54,7 @@ ul {
 .pagination .active-page {
 	color: #57db9b
 }
-.cabin {
-	position: fixed;
-	right: .5em;
-	bottom: .5em;
-	width: 1.6em;
-	opacity: .2
-}
-.cabin: hover {
-	opacity: .6
-}
-@media (max-width: 1050px) {
-	.cabin {
-	display: none
-}
-
-}
-.group: after {
+.group:after {
 	content: "";
 	display: table;
 	clear: both
@@ -88,7 +72,7 @@ nav a {
 	color: #fff;
 	text-decoration: none
 }
-nav a: hover {
+nav a:hover {
 	color: #fff;
 	text-decoration: underline
 }
@@ -97,7 +81,7 @@ nav a: hover {
 	width: 100%;
 	height: auto
 	}
-nav: after {
+nav:after {
 	content: "";
 	display: table;
 	clear: both
@@ -167,7 +151,7 @@ nav: after {
 .social-media a {
 	margin: 0 10px
 }
-.social-media a: hover {
+.social-media a:hover {
 	text-decoration: none;
 	color: #393838
 }
@@ -243,50 +227,6 @@ pre {
 .highlight pre {
 	padding: 15px
 }
-nav,.nav-links {
+nav, .nav-links {
 	background: #2980b9
-}
-.about h1 {
-	text-align: center
-}
-.about .json {
-	display: table;
-	margin: 0 auto
-}
-.about .json .tag {
-	font-size: 2em;
-	font-weight: 700
-}
-.about .json .field {
-	margin-left: 3em;
-	font-size: 1.22em;
-	color: #2980b9
-}
-.img-me {
-	display: block;
-	margin: 0 auto;
-	width: 100px;
-	height: 100px
-}
-.img-circle {
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	border-radius: 500px
-}
-hr.style-eight {
-	padding: 0;
-	margin: 2em 0;
-	border: 0;
-	border-top: medium double #333;
-	color: #333;
-	text-align: center
-}
-hr.style-eight: after {
-	content: "§";
-	display: inline-block;
-	position: relative;
-	top: -.7em;
-	font-size: 1.5em;
-	padding: 0 .25em;
-	background: #fff
 }
