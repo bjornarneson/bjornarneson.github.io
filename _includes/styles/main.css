@@ -3,11 +3,11 @@ body {
 	color: #333;
 	-webkit-font-smoothing: antialiased;
 	font-family: "Open Sans",sans-serif;
-	font-size: 16px
+	font-size: 17px
 }
 @media (max-width: 1050px) {
 	body {
-	font-size: 14px
+	font-size: 16px
 	}
 }
 @media (max-width: 630px) {
@@ -80,7 +80,7 @@ nav a:hover {
 	width: 100%;
 	height: auto
 	}
-nav:after {
+	nav:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -100,8 +100,8 @@ nav:after {
 	padding: 0 1em;
 	margin: 5px 0;
 	float: left
-}
-
+	font-size: 1.5em;
+	}
 }
 .menu {
 	text-align: right;
@@ -113,14 +113,12 @@ nav:after {
 }
 @media (max-width: 1050px) {
 	.menu {
-	display: block
-}
-
+		display: block
+	}
 }
 .nav-links {
 	background: #57db9b;
 	padding: 0 50px;
-	font-size: 1em;
 }
 .nav-links a {
 	display: block;
@@ -146,6 +144,7 @@ nav:after {
 	width: 100%;
 	font-size: 1.8em;
 	line-height: 2em
+	padding-bottom: 3em;
 }
 .social-media a {
 	margin: 0 10px;
