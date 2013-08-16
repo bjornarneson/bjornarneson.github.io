@@ -1,0 +1,16 @@
+--- 
+categories: blog
+title: Seven Essential Skills You Didn't Learn in College 
+author: Bjorn Arneson 
+layout: post 
+---
+
+> Power has always depended on who can provide justice,
+> commerce, and stability. Successful insurgents aren't just
+> thugs; they offer their members tangible
+> benefits‚ community, money, education, and a sense of order
+> (even if the rebels are the ones creating disorder in the
+> first place). We must learn how they gain loyalty, even if
+> our goal is to undercut it.
+
+via <a href="http://www.wired.com/magazine/2010/09/ff_wiredu/all/1">wired.com</a>

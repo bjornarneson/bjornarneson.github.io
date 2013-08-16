@@ -1,0 +1,15 @@
+---
+categories: blog
+title: It is hot up in here. 
+author: Bjorn Arneson
+layout: post
+tags: 
+- weather
+- hot
+---
+
+Good gravy it's hot. I moved closer to my workplace in early June.
+On days like today, I'm in the unenviable position of walking or biking
+to work and sweating like a pig in both directions, or driving my car
+and paying for parking. Today thrift won out, but the pits on this shirt
+are paying for it.

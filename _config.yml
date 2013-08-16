@@ -1,0 +1,7 @@
+baseurl: http://bjornarneson.com
+title: bjornarneson.com
+name: 'Bjorn Arneson'
+email: bjornarneson@gmail.com
+slogan: 'Jack of Some Trades'
+permalink: pretty
+markdown: rdiscount

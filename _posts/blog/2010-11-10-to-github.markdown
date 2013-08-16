@@ -1,0 +1,28 @@
+---
+categories: blog
+title: Github + Jekyll
+author: Bjorn Arneson
+layout: post
+tags: 
+- Jekyll
+- code
+- git
+- Github
+- blog
+---
+
+Because I can't leave well enough alone, I have migrated this blog to 
+[Github](github.com) for a few reasons:
+
+1. Blog hosting at Github is free.
+2. My web content is now under version control.
+3. I can write and edit content, structure, and style from within my
+   preferred text editor (currently Textwrangler for OSX).
+4. I'm trying to learn Git, and this is a great excuse to play around
+   with my own site before using the tool to manage someone else's. 
+   [Drupal](drupal.org) will be going Git soon and I want to learn 
+   the ins and outs of Git for that project.
+5. The blog is processed by the very excellent [Jekyll](jekyllrb.com) 
+   rendering engine. Basically, I feed it Markdown files and it 
+   spits out static HTML. On the client end, it feels very fast 
+   and I can use nice clean code to both author and administer the blog.

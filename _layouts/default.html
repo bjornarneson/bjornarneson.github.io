@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <meta charset="utf-8">
+  <title>{{site.name}} - {{ page.title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="Bjorn Arneson">
+  <!-- testing -->
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/bjornarneson" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" media="projection, screen" href="http://fonts.googleapis.com/css?family=Droid+Sans|Yanone+Kaffeesatz">
+-->
+  <link rel="stylesheet" href="/styles/main.css">
+
+	
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="/js/imgscale.jquery.min.js"></script>
+
+  <!-- Use this domain as an openid -->
+  <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" > 
+  <link rel="openid2.local_id" href="http://www.google.com/profiles/bjornarneson" >
+  <link rel="openid.server" href="https://www.google.com/accounts/o8/ud?source=profiles" > 
+  <link rel="openid.delegate" href="http://www.google.com/profiles/bjornarneson" >
+
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+
+</head>
+<body>
+
+    <nav>
+      <h1 class="name">
+        <a href="/">{{site.title}}</a>
+      </h1>
+      <ul class="nav-links">
+        <li class="menu icon-menu"></li>
+        <li class="text-link">
+            <a href="/about.html">about</a>
+        </li>
+        <li class="text-link">
+            <a href="/projects.html">projects</a>
+        </li>
+        <li class="text-link">
+          <a href="/archives.html">archives</a>
+        </li>
+      </ul>
+  <!-- refactor into loop
+	<a class='{% if page.url == "blog/" %}active{% endif %}' href='{{site.baseurl}}/blog'>Blog</a>
+	<a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About Me</a>
+	<a href='//twitter.com/bjornarneson'>Twitter</a>
+	-->
+
+      <div class="social-media">
+        <a href="https://github.com/" class="icon-github"></a>
+        <a href="https://twitter.com/" class="icon-twitter"></a>
+        <a href="http://pinterest.com/" class="icon-pinterest"></a>
+      </div>
+    </nav>
+	
+	
+<div class="content">
+	
+	{{ content }}		
+
+	</div>
+    <a href="http://colinwren.github.io/Cabin/">
+      <img src="/images/cabin.png" alt="cabin logo" class="cabin" />
+    </a>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/scripts/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-6332629-1");pageTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+
+  </body>
+</html>

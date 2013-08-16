@@ -1,0 +1,15 @@
+---
+categories: blog
+layout: post
+title: Experimenting with Jekyll
+author: Bjorn Arneson
+tags:
+- jekyll
+- ruby
+- blog
+- drupal
+---
+
+I migrated this site from [Drupal](http://drupal.org) to [Jekyll](http://wiki.github.com/mojombo/jekyll) today. Given that this site is updated only infrequently, I thought
+it might be a good idea to use a publishing system that doesn't need quite as much ongoing attention as Drupal.
+I managed to port the Neewee theme in use on the previous site to Jekyll. Will give more details when I have the opportunity.

@@ -1,0 +1,10 @@
+--- 
+categories: blog
+title: Rule #1
+author: Bjorn Arneson 
+layout: post 
+---
+
+> Rule #1: Use best judgment in all situations. There will be no additional rules.
+
+via <http://37signals.com/svn/posts/2632-nordstroms-employee-handbook-mdash-short-and-sweet>

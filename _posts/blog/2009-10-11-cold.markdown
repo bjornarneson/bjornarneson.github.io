@@ -1,0 +1,16 @@
+---
+categories: blog
+layout: post
+title: Cold October
+author: Bjorn Arneson
+tags:
+- snow
+- travel
+- montana
+---
+
+I returned home to Minneapolis yesterday from a rural development conference[^1] in Billings, Montana. I saw my first
+snow of the year in Billings, and the wintry temperatures seemed to have followed me back to Minnesota. 
+I was hoping to fit in one more round of golf for the year--may have to pack the clubs away until April.
+
+[^1]: Met a lot of very passionate and smart people at the Northern Plains Initiative Conference presented by Rural Dynamics.
