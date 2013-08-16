@@ -26,12 +26,21 @@ ul {
   margin: 30px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 1050px) {
 	nav .pad {
-	  margin: 0px;
+	  margin: 10px;
 	}
 	.content .pad {
 	  margin: 10px;
+	}
+}
+
+@media (max-width: 630px) {
+	nav .pad {
+	  margin: 5px;
+	}
+	.content .pad {
+	  margin: 5px;
 	}
 }
 
