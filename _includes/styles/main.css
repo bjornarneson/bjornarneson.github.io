@@ -190,6 +190,7 @@ nav:after {
 	margin-bottom: 1.2em;
 	font-family: "Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
 	line-height: 1.65em
+	clear:both;
 }
 .post-body img {
 	max-width: 100%
