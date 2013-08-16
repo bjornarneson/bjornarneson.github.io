@@ -7,19 +7,19 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </a>
   <h2 class="post-date">Posted: {{ page.date | date: "%b %d, %Y" }}</h2>
-
-    {% if page.tags %} 
-    Tagged: {{ page.tags | array_to_sentence_string }}.
-    {% endif %}
-    
-    {% if page.external-url %} 
-    Quoted from: {{ page.external-url }}.
-    {% endif %}
-	
-  </div>
+</div>
 
 <div class="post-body">
   {{ content }}
+
+   {% if page.tags %} 
+   <p> Tagged: {{ page.tags | array_to_sentence_string }}. </p>
+    {% endif %}
+    
+    {% if page.external-url %} 
+    <p>Quoted from: {{ page.external-url }}. </p>
+    {% endif %}
+	
 </div>
 
 <aside class="related">
