@@ -154,23 +154,26 @@ nav a:hover {
 	text-decoration: none;
 	color: #2980b9
 }
+
 @media (max-width: 1050px) {
 	.social-media {
 	display: none
+	}
 }
 
-}
 .post-head {
 	border-bottom: 2px solid #eee;
-	margin: 2em 0;
+	margin: 0 0 1em 0;
 	padding-bottom: 5px;
 	position: relative;
 	float: left;
 	width: 100%
 }
+
 .post-head a {
 	text-decoration: none
 }
+
 .post-title {
 	float: left;
 	padding-right: 4.8em;
