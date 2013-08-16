@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-published: false
+published: true
 title: "2012-2013 Minnesota School District Boundaries in GeoJSON Format"
 sticky: false
 tags: 
