@@ -5,3 +5,5 @@ email: bjornarneson@gmail.com
 slogan: 'Jack of Some Trades'
 permalink: pretty
 markdown: rdiscount
+rdiscount:
+  extensions: [smart]
