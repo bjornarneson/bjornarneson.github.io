@@ -26,7 +26,7 @@ body {
 	height:auto;
 }
 
-nav:after {
+	nav:after {
 	content:"";
 	display:table;
 	clear:both;
@@ -63,6 +63,7 @@ nav:after {
 }
 
 }
+
 .content {
 	margin:0 auto;
 	max-width:680px;
