@@ -16,13 +16,54 @@ body {
 	body {
 	font-size:16px;
 }
+	.content {
+	margin:45px auto;
+	width:86%;
+}
 
-}@media (max-width:630px) {
+	nav {
+	width:100%;
+	height:auto;
+}
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+	.name {
+	padding:0 1em;
+	margin:5px 0;
+	float:left;
+}
+	.menu {
+	display:block;
+}
+	.nav-links {
+	padding:0;
+	margin:0;
+	position:absolute;
+	right:0;
+}
+
+.nav-links a {
+	display:block;
+	padding:.55em .9em;
+}
+	.social-media {
+	display:none;
+}
+
+}
+
+@media (max-width:630px) {
 	body {
 	font-size:12px;
 }
 
-}.content {
+}
+.content {
 	margin:0 auto;
 	max-width:680px;
 	width:55%;
@@ -40,13 +81,7 @@ body {
 	color:#2dd282;
 }
 
-@media (max-width:1250px) {
-	.content {
-	margin:45px auto;
-	width:86%;
-}
-
-}.pagination {
+.pagination {
 	padding:20px 0;
 }
 
@@ -65,24 +100,7 @@ body {
 	color:#57db9b;
 }
 
-.cabin {
-	position:fixed;
-	right:.5em;
-	bottom:.5em;
-	width:1.6em;
-	opacity:.2;
-}
-
-.cabin:hover {
-	opacity:.6;
-}
-
-@media (max-width:1250px) {
-	.cabin {
-	display:none;
-}
-
-}.group:after {
+.group:after {
 	content:"";
 	display:table;
 	clear:both;
@@ -107,19 +125,7 @@ nav a:hover {
 	text-decoration:underline;
 }
 
-@media (max-width:1250px) {
-	nav {
-	width:100%;
-	height:auto;
-}
-
-nav:after {
-	content:"";
-	display:table;
-	clear:both;
-}
-
-}.name {
+.name {
 	position:relative;
 	z-index:100;
 	font-weight:400;
@@ -128,14 +134,7 @@ nav:after {
 	padding:0 1.5em;
 }
 
-@media (max-width:1250px) {
-	.name {
-	padding:0 1em;
-	margin:5px 0;
-	float:left;
-}
-
-}.menu {
+.menu {
 	text-align:right;
 	cursor:pointer;
 	color:#fff;
@@ -144,12 +143,7 @@ nav:after {
 	padding:.75em .8em;
 }
 
-@media (max-width:1250px) {
-	.menu {
-	display:block;
-}
-
-}.nav-links {
+.nav-links {
 	background:#57db9b;
 	padding:0 50px;
 	font-size:1.4em;
@@ -160,20 +154,7 @@ nav:after {
 	padding:0 0 .55em;
 }
 
-@media (max-width:1250px) {
-	.nav-links {
-	padding:0;
-	margin:0;
-	position:absolute;
-	right:0;
-}
-
-.nav-links a {
-	display:block;
-	padding:.55em .9em;
-}
-
-}.social-media {
+.social-media {
 	text-align:center;
 	position:absolute;
 	bottom:0;
@@ -191,12 +172,7 @@ nav:after {
 	color:#393838;
 }
 
-@media (max-width:1250px) {
-	.social-media {
-	display:none;
-}
-
-}.post-head {
+.post-head {
 	border-bottom:1px solid #d2d1d1;
 	margin:2em 0;
 	padding-bottom:5px;
