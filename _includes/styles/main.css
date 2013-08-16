@@ -129,7 +129,7 @@ nav a:hover {
 }
 .nav-links {
 	background: #57db9b;
-	padding: 0 50px;
+	padding: 0;
 }
 .nav-links a {
 	display: block;
