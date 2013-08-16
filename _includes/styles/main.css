@@ -5,7 +5,7 @@ body {
 	font-family: "Open Sans",sans-serif;
 	font-size: 17px
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	body {
 	font-size: 16px
 	}
@@ -32,7 +32,7 @@ ul {
 .content a: hover {
 	color: #2dd282
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	.content {
 	margin: 45px auto;
 	width: 86%
@@ -64,7 +64,7 @@ ul {
 .cabin: hover {
 	opacity: .6
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	.cabin {
 	display: none
 }
@@ -92,7 +92,7 @@ nav a: hover {
 	color: #fff;
 	text-decoration: underline
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	nav {
 	width: 100%;
 	height: auto
@@ -112,7 +112,7 @@ nav: after {
 	margin: 30px 0;
 	padding: 0 1.5em
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	.name {
 	padding: 0 1em;
 	margin: 5px 0;
@@ -128,7 +128,7 @@ nav: after {
 	margin: 0 0 0 .9em;
 	padding: .75em .8em
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	.menu {
 	display: block
 }
@@ -143,7 +143,7 @@ nav: after {
 	display: block;
 	padding: 0 0 .55em
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	.nav-links {
 	padding: 0;
 	margin: 0;
@@ -171,7 +171,7 @@ nav: after {
 	text-decoration: none;
 	color: #393838
 }
-@media (max-width: 1250px) {
+@media (max-width: 1050px) {
 	.social-media {
 	display: none
 }
