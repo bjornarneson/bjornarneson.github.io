@@ -5,16 +5,16 @@ body {
 	font-family: "Open Sans",sans-serif;
 	font-size: 17px
 }
-@media (max-width: 1050px) {
-	body {
-	font-size: 16px
+	@media (max-width: 1050px) {
+		body {
+		font-size: 16px
+		}
 	}
-}
-@media (max-width: 630px) {
-	body {
-	font-size: 12px
+	@media (max-width: 630px) {
+		body {
+		font-size: 12px
+		}
 	}
-}
 
 ul {
 	padding: 0;
@@ -26,23 +26,23 @@ ul {
   margin: 30px;
 }
 
-@media (max-width: 1050px) {
-	nav .pad {
-	  margin: 10px;
+	@media (max-width: 1050px) {
+		nav .pad {
+		  margin: 10px;
+		}
+		.content .pad {
+		  margin: 10px;
+		}
 	}
-	.content .pad {
-	  margin: 10px;
-	}
-}
 
-@media (max-width: 630px) {
-	nav .pad {
-	  margin: 5px;
+	@media (max-width: 630px) {
+		nav .pad {
+		  margin: 5px;
+		}
+		.content .pad {
+		  margin: 5px;
+		}
 	}
-	.content .pad {
-	  margin: 5px;
-	}
-}
 
 .content {
 	margin: 0 0 0 250px;
@@ -54,11 +54,11 @@ ul {
 .content a:hover {
 	color: #2980b9;
 }
-@media (max-width: 1050px) {
-	.content {
-		margin: 0 auto;
+	@media (max-width: 1050px) {
+		.content {
+			margin: 0 auto;
+		}
 	}
-}
 
 .pagination {
 	padding: 20px 0
@@ -76,9 +76,9 @@ ul {
 	color: #57db9b
 }
 .group:after {
-	content: "";
+	content: " ";
 	display: table;
-	clear: both
+	clear: both;
 }
 nav {
 	position: fixed;
@@ -96,18 +96,17 @@ nav a:hover {
 	color: #fff;
 	text-decoration: underline
 }
-@media (max-width: 1050px) {
-	nav {
-		width: 100%;
-		height: auto
+	@media (max-width: 1050px) {
+		nav {
+			width: 100%;
+			height: auto
+		}
+		nav:after {
+			content: " ";
+			display: table;
+			clear: both;
+		}
 	}
-	nav:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-
-}
 .name {
 	position: relative;
 	z-index: 100;
@@ -149,7 +148,7 @@ nav a:hover {
 		padding: 0;
 		margin: 0;
 		position: absolute;
-		right: 0
+		right: 0;
 		
 	}
 	.nav-links a {
