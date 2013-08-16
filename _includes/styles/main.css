@@ -3,16 +3,16 @@ body {
 	color: #333;
 	-webkit-font-smoothing: antialiased;
 	font-family: "Open Sans",sans-serif;
-	font-size: 17px
+	font-size: 16px
 }
 	@media (max-width: 1050px) {
 		body {
-		font-size: 16px
+			font-size: 14px
 		}
 	}
 	@media (max-width: 630px) {
 		body {
-		font-size: 12px
+			font-size: 12px
 		}
 	}
 
@@ -25,7 +25,6 @@ ul {
 .pad {
   margin: 30px;
 }
-
 	@media (max-width: 1050px) {
 		nav .pad {
 		  margin: 10px;
@@ -46,7 +45,7 @@ ul {
 
 .content {
 	margin: 0 0 0 250px;
-	max-width: 700px;
+	max-width: 800px;
 }
 .content a {
 	color: #2980b9;
@@ -60,26 +59,12 @@ ul {
 		}
 	}
 
-.pagination {
-	padding: 20px 0
-}
-.pagination li {
-	float: left
-}
-.pagination a {
-	padding: 10px;
-	text-decoration: none;
-	font-size: 1.7em;
-	font-family: "Open Sans",sans-serif
-}
-.pagination .active-page {
-	color: #57db9b
-}
 .group:after {
 	content: " ";
 	display: table;
 	clear: both;
 }
+
 nav {
 	position: fixed;
 	z-index: 100;
@@ -88,18 +73,12 @@ nav {
 	width: 250px;
 	overflow: hidden;
 }
-nav a {
-	color: #fff;
-	text-decoration: none
-}
-nav a:hover {
-	color: #fff;
-	text-decoration: underline
-}
 	@media (max-width: 1050px) {
 		nav {
+			position: relative;
+			display: block;
 			width: 100%;
-			height: auto
+			height: auto;
 		}
 		nav:after {
 			content: " ";
@@ -107,6 +86,14 @@ nav a:hover {
 			clear: both;
 		}
 	}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
 .name {
 	position: relative;
 	z-index: 100;
@@ -149,11 +136,10 @@ nav a:hover {
 		margin: 0;
 		position: absolute;
 		right: 0;
-		
 	}
 	.nav-links a {
 		display: block;
-		padding: .55em .9em
+		padding: .55em .9em;
 	}
 }
 
@@ -182,18 +168,18 @@ nav a:hover {
 	padding-bottom: 5px;
 	position: relative;
 	float: left;
-	width: 100%
+	width: 100%;
 }
 
 .post-head a {
-	text-decoration: none
+	text-decoration: none;
 }
 
 .post-title {
 	float: left;
 	padding-right: 4.8em;
 	margin: 5px 0;
-	font-size: 1.7em
+	font-size: 1.7em;
 }
 .post-date {
 	position: absolute;
@@ -201,22 +187,22 @@ nav a:hover {
 	margin: 0;
 	right: 0;
 	font-size: 1.3em;
-	opacity: .4
+	opacity: .4;
 }
 .post-body {
 	margin-bottom: 1.2em;
 	font-family: "Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
-	line-height: 1.65em
+	line-height: 1.65em;
 	clear:both;
 }
 .post-body img {
-	max-width: 100%
+	max-width: 100%;
 }
 .social {
-	padding: .55em 0 1.4em
+	padding: .55em 0 1.4em;
 }
 .anchor {
-	text-decoration: none
+	text-decoration: none;
 }
 p code {
 	background: #ebebff;
@@ -224,18 +210,18 @@ p code {
 	padding: 0 .23em;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
-	border-radius: 3px
+	border-radius: 3px;
 }
 code {
 	margin: 0;
 	padding: 0;
 	font-size: .8em;
 	line-height: 1.5em;
-	font-family: Monaco,Consolas,monospace
+	font-family: Monaco,Consolas,monospace;
 }
 pre {
 	font-family: Monaco,Consolas,monospace;
-	overflow: auto
+	overflow: auto;
 }
 
 blockquote {
@@ -246,11 +232,11 @@ blockquote {
 .highlight {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
-	border-radius: 3px
+	border-radius: 3px;
 }
 .highlight pre {
-	padding: 15px
+	padding: 15px;
 }
 nav, .nav-links {
-	background: #2980b9
+	background: #2980b9;
 }
