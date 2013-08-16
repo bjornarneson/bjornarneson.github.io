@@ -35,5 +35,6 @@ I write poems, but I like this one:
 > To gather us in and send us away  
 > Into a world made hazy with joyful tears.
 
-<img src="/images/wedding177.jpg" />
+<a href="http://www.flickr.com/photos/bjornarneson/9523723565/" title="Churchyard by bjornarneson, on Flickr"><img src="http://farm4.staticflickr.com/3824/9523723565_b9973aca90_c.jpg" width="800" height="536" alt="Churchyard"></a>
+
 <em>In the graveyard at Valley Grove Church</em>
