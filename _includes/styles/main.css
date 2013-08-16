@@ -150,20 +150,16 @@ nav a:hover {
 }
 
 .social-media {
-	text-align: center;
 	position: absolute;
 	bottom: 0;
-	width: 100%;
 	font-size: 1.8em;
 	line-height: 2em;
 }
 .social-media a {
 	margin: 0 10px;
-	color: #2980b9;
 }
 .social-media a:hover {
 	text-decoration: none;
-	color: #2980b9;
 }
 
 @media (max-width: 1050px) {
