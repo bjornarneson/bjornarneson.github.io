@@ -5,7 +5,7 @@ categories: blog
 author: Bjorn Arneson
 layout: blank
 tags: [mpr, map, gis]
-permalink: 'mpr/index.html'
+permalink: mpr
 ---
 
 <iframe src="http://www.batchgeo.com/map/mpr-discounts" frameborder="0" width="100%" height="100%"></iframe>
