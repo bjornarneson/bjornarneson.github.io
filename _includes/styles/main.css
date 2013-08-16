@@ -331,26 +331,6 @@ nav, .nav-links {
 	background:#2980b9;
 }
 
-.about h1 {
-	text-align:center;
-}
-
-.about .json {
-	display:table;
-	margin:0 auto;
-}
-
-.about .json .tag {
-	font-size:2em;
-	font-weight:700;
-}
-
-.about .json .field {
-	margin-left:3em;
-	font-size:1.22em;
-	color:#2980b9;
-}
-
 .img-me {
 	display:block;
 	margin:0 auto;
