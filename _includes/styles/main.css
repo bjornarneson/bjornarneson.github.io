@@ -1,13 +1,18 @@
 @font-face {
-	font-family:icomoon;
+	font-family: 'icomoon';
 	src:url(/css/fonts/icomoon.eot);
-	src:url(/css/fonts/icomoon.eot?#iefix) format("embedded-opentype"), url(/css/fonts/icomoon.woff) format("woff"), url(/css/fonts/icomoon.ttf) format("truetype"), url(/css/fonts/icomoon.svg#icomoon) format("svg");
+		src:url(/css/fonts/icomoon.eot?#iefix) format("embedded-opentype"), 
+		url(/css/fonts/icomoon.woff) format("woff"), 
+		url(/css/fonts/icomoon.ttf) format("truetype"), 
+		url(/css/fonts/icomoon.svg#icomoon) format("svg");
 	font-weight:400;
 	font-style:normal;
 }
 
-.icon-github, .icon-menu, .icon-dribbble, .icon-mail, .icon-google-plus, .icon-facebook, .icon-twitter, .icon-pinterest {
-	font-family:icomoon;
+.icon-github, .icon-menu, .icon-dribbble, 
+.icon-mail, .icon-google-plus, .icon-facebook, 
+.icon-twitter, .icon-pinterest {
+	font-family: 'icomoon';
 	speak:none;
 	font-style:normal;
 	font-weight:400;
