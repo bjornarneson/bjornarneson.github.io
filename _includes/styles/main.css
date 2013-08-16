@@ -105,12 +105,12 @@ nav a:hover {
 	font-weight: 400;
 	font-size: 2em;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 40px 0;
 }
 @media (max-width: 1050px) {
 	.name {
 	padding: 0 1em;
-	float: left
+	float: left;
 	font-size: 1.5em;
 	}
 }
@@ -120,11 +120,11 @@ nav a:hover {
 	color: #fff;
 	display: none;
 	margin: 0 0 0 .9em;
-	padding: .75em .8em
+	padding: .75em .8em;
 }
 @media (max-width: 1050px) {
 	.menu {
-		display: block
+		display: block;
 	}
 }
 .nav-links {
