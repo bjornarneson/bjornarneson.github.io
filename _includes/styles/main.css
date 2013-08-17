@@ -106,7 +106,7 @@ nav a:hover {
 	display: none;
 	margin: 0 0 0 .9em;
 	padding: .75em .8em;
-
+}
 @media (max-width: 1050px) {
 	.menu {
 		display: block;
