@@ -106,10 +106,12 @@ nav a:hover {
 	display: none;
 	margin: 0 0 0 .9em;
 	padding: .75em .8em;
+	font-size: 2em;
 }
 @media (max-width: 1050px) {
 	.menu {
 		display: block;
+		font-size:1em;
 	}
 }
 .nav-links {
