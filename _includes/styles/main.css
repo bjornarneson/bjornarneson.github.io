@@ -187,6 +187,7 @@ nav a:hover {
 }
 .post-body img {
 	max-width: 100%;
+	height: auto;
 }
 .social {
 	padding: .55em 0 1.4em;
