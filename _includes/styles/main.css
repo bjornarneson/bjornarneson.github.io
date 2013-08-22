@@ -1,235 +1,46 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
 body {
-	margin: 0;
-	color: #333;
-	-webkit-font-smoothing: antialiased;
-	font-family: "Open Sans",sans-serif;
-	font-size: 16px
-}
-ul {
-	padding: 0;
-	margin: 0;
-	list-style: none
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
 }
 
-.pad {
-  margin: 30px;
-}
-	@media (max-width: 1050px) {
-		nav .pad {
-		  margin: 10px;
-		}
-		.content .pad {
-		  margin: 10px;
-		}
-	}
-
-	@media (max-width: 630px) {
-		nav .pad {
-		  margin: 5px;
-		}
-		.content .pad {
-		  margin: 5px;
-		}
-	}
-
-.content {
-	margin: 0 0 0 250px;
-	max-width: 800px;
-}
-.content a {
-	color: #2980b9;
-}
-.content a:hover {
-	color: #2980b9;
-}
-	@media (max-width: 1050px) {
-		.content {
-			margin: 0 auto;
-		}
-	}
-
-.group:after {
-	content: " ";
-	display: table;
-	clear: both;
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
 }
 
-nav {
-	position: fixed;
-	z-index: 100;
-	height: 100%;
-	top: 0;
-	width: 250px;
-	overflow: hidden;
-}
-	@media (max-width: 1050px) {
-		nav {
-			position: relative;
-			display: block;
-			width: 100%;
-			height: auto;
-		}
-		nav:after {
-			content: " ";
-			display: table;
-			clear: both;
-		}
-	}
-nav a {
-	color: #fff;
-	text-decoration: none;
-}
-nav a:hover {
-	color: #fff;
-	text-decoration: underline;
-}
-.name {
-	position: relative;
-	z-index: 100;
-	font-weight: 400;
-	font-size: 2em;
-	margin: 0;
-	padding: 0 0 40px 0;
-	text-transform: uppercase;
-}
-@media (max-width: 1050px) {
-	.name {
-	padding: 5px 0;
-	float: left;
-	font-size: 1.5em;
-	}
-}
-.menu {
-	text-align: right;
-	cursor: pointer;
-	color: #fff;
-	display: none;
-	margin: 0 0 0 .9em;
-	padding: .75em .8em;
-}
-@media (max-width: 1050px) {
-	.menu {
-		display: block;
-	}
-}
-.nav-links {
-	background: #57db9b;
-	padding: 0;
-	font-size: 2em;
-}
-.nav-links a {
-	display: block;
-	padding: 0 0 .55em
-}
-@media (max-width: 1050px) {
-	.nav-links {
-		padding: 0;
-		margin: 0;
-		position: absolute;
-		right: 0;
-		font-size:1em;
-	}
-	.nav-links a {
-		display: block;
-		padding: .55em .9em;
-	}
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
 }
 
-.social-media {
-	position: absolute;
-	bottom: 0;
-	font-size: 1.8em;
-	line-height: 2em;
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
 }
-.social-media a {
-	margin: 0 10px;
-}
-.social-media a:hover {
-	text-decoration: none;
+.container .credit {
+  margin: 20px 0;
 }
 
-@media (max-width: 1050px) {
-	.social-media {
-	display: none;
-	}
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.post-head {
-	border-bottom: 2px solid #eee;
-	margin: 0 0 1em 0;
-	padding-bottom: 5px;
-	position: relative;
-	float: left;
-	width: 100%;
-}
-
-.post-head a {
-	text-decoration: none;
-}
-
-.post-title {
-	float: left;
-	padding-right: 4.8em;
-	margin: 5px 0;
-	font-size: 1.7em;
-}
-.post-date {
-	position: absolute;
-	bottom: 10px;
-	margin: 0;
-	right: 0;
-	font-size: 1.3em;
-	opacity: .4;
-}
-.post-body {
-	margin-bottom: 1.2em;
-	font-family: "Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
-	line-height: 1.65em;
-	clear:both;
-}
-.post-body img {
-	max-width: 100%;
-	height: auto;
-}
-.social {
-	padding: .55em 0 1.4em;
-}
-.anchor {
-	text-decoration: none;
-}
-p code {
-	background: #ebebff;
-	border: 1px solid #e6e6e6;
-	padding: 0 .23em;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
 code {
-	margin: 0;
-	padding: 0;
-	font-size: .8em;
-	line-height: 1.5em;
-	font-family: Monaco,Consolas,monospace;
-}
-pre {
-	font-family: Monaco,Consolas,monospace;
-	overflow: auto;
-}
-
-blockquote {
-	margin-left: 1em;
-	padding-left: 1em;
-	border-left: 4px solid #ddd;
-}
-.highlight {
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-.highlight pre {
-	padding: 15px;
-}
-nav, .nav-links {
-	background: #2980b9;
+  font-size: 80%;
 }
