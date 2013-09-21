@@ -14,4 +14,4 @@ tags:
 
 <script src="https://gist.github.com/bjornarneson/6252920.js"></script>
 
-Rendered via Github's built-in GeoJSON rendering in repositories and Gists.
+> Rendered via Github's built-in GeoJSON rendering in repositories and Gists.
