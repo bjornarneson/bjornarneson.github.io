@@ -3,7 +3,7 @@ categories: blog
 layout: post
 title: 2008 in Review
 author: Bjorn Arneson
-tags: [2008, review, reflection]
+tags: ['2008', review, reflection]
 ---
 
 All is well here in Minneapolis--I wish the same for you wherever you are. In lieu of a printed Christmas card, I will share a few of the more memorable moments of my 2008:

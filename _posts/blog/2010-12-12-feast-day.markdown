@@ -7,7 +7,7 @@ tags:
 - food
 - snow
 - cooking
-- #blizzardpeople
+- blizzardpeople
 ---
 
 Today nearly 20 inches of snow fell in St. Paul. We spent part of the morning

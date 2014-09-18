@@ -3,7 +3,7 @@ categories: blog
 layout: post
 title: 2009 in Review
 author: Bjorn Arneson
-tags: [2009, review, reflection]
+tags: ['2009', review, reflection]
 ---
 
 Once again, in lieu of a Christmas card, I'm summarizing the more notable parts of 2009 for all interested parties. In short, it was a great year. See below.
