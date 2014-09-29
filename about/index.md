@@ -23,10 +23,4 @@ I work with the Senate E-12 Education Committees on issues ranging from general 
 funding and school board policy, to teacher licensure and local library issues, and most everything 
 in between. The job is quite a lot of fun.
 
-You've read this far -- astounding! I'm impressed. Here are a few parting shots:
-
-- [Resume](//dl.dropbox.com/u/1176144/bjornarneson.com/resume.pdf) in PDF format
-- [Links](//pinboard.in/u:bjornarneson) of interest (to me, at least)
-- [Photos on Flickr](//flickr.com/photos/bjornarneson)
-- [Follow me](//twitter.com/bjornarneson) on Twitter
-- [Wren Fest](//wrenfest.tumblr.com), a silly pet project
+You've read this far -- astounding! I'm impressed. 
