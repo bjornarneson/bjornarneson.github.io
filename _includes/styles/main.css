@@ -1,11 +1,6 @@
-html, body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
-}
-
 body {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #wrap {
@@ -14,11 +9,11 @@ body {
   margin: 0 auto;
 }
 
+#wrap #menu {
+  
+}
+
 #wrap img {
   width: 100%;
   height: auto;
-}
-
-code {
-  font-size: 80%;
 }
