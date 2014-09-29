@@ -5,13 +5,10 @@ permalink: index.html
 published: true
 ---
 
-  {% for item in site.categories.blog limit:1000 %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-
-    {% if date != ndate %}
-    <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
-    {% endif %}
-    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a> <span class='date'> &#8212; {{item.date | date:"%b %d"}}</span> <br />
-    
-  {% endfor %}
+<div id='home'>
+  <h1>{{ site.name }}</h1>
+  <p>{{ site.slogan }}</p>
+  <ul>
+    <li>menu</li>
+  </ul>
+</div>
