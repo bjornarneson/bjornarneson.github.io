@@ -10,8 +10,8 @@ body {
 }
 
 h1#title {
-  background: url('/images/green_bear_small.png') 0 0 no-repeat;
-  padding-left: 30px;
+  background: url('/images/green_bear_small.png') 0 -7 no-repeat;
+  padding-left: 50px;
 }
 
 #wrap #menu {
