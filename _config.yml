@@ -10,9 +10,13 @@ rdiscount:
 
 menus:
   main:
-    - home: /
-    - posts: /posts/
-    - about: /about/
-    - twitter: http://twitter.com/bjornarneson
+    - title: 'home'
+      href: '/'
+    - title: 'posts'
+      href: '/posts/'
+    - title: 'about'
+      href: '/about/'
+    - title: 'twitter'
+      href: 'http://twitter.com/bjornarneson'
     
     
