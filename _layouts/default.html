@@ -27,6 +27,14 @@
 <body>
 
 <div id="wrap">
+<div id="menu">
+	<ul>
+	{% for item in site.menus.main %}
+	  <li>{{ item }}</li>
+	{% endfor %}
+	</ul>
+</div>
+
 {{ content }}		
 </div>
     
