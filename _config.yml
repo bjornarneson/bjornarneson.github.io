@@ -3,7 +3,7 @@ title: 'bjornarneson dot com'
 name: 'Bjorn Arneson'
 email: mail@bjornarneson.com
 slogan: 'Jack of Some Trades'
-permalink: pretty
+permalink: /posts/:year/:month/:day/:title/
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
