@@ -7,3 +7,12 @@ permalink: /posts/:year/:month/:day/:title/
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
+
+menus:
+  main:
+    - home: /
+    - posts: /posts/
+    - about: /about/
+    - twitter: http://twitter.com/bjornarneson
+    
+    
