@@ -30,7 +30,7 @@
 <div id="menu">
 	<ul>
 	{% for item in site.menus.main %}
-	  <li>{{ item }}</li>
+	  <li><a href="{{ item.href }}">{{ item.title }}</a></li>
 	{% endfor %}
 	</ul>
 </div>
