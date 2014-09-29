@@ -4,23 +4,19 @@ html, body {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12em;
 }
-
-
 
 #wrap {
   padding: 40px 0;
   max-width: 450px;
   margin: 0 auto;
 }
-.container .credits {
-  margin: 20px 0;
-}
 
-#footer > .container {
-  padding-left: 15px;
-  padding-right: 15px;
+#wrap img {
+  width: 100%;
+  height: auto;
 }
 
 code {
