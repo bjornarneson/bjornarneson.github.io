@@ -10,7 +10,7 @@ body {
 }
 
 h1#title {
-  background: url('/images/green_bear_small.png') 0 -7 no-repeat;
+  background: url('/images/green_bear_small.png') 0 -7px no-repeat;
   padding-left: 50px;
 }
 
