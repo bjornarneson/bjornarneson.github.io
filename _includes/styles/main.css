@@ -9,6 +9,11 @@ body {
   margin: 0 auto;
 }
 
+h1#title {
+  background-image: '/images/green_bear_small.png';  
+  padding-left: 30px;
+}
+
 #wrap #menu {
   
 }
