@@ -1,5 +1,5 @@
 body {
-  font-family: Consolas, "Lucida Console", Monaco, monospace;
+  font-family: Consolas, Monaco, monospace;
   font-size: 14px;
   margin: 0 10px;
 }
@@ -15,8 +15,10 @@ h1#title {
   padding-left: 50px;
 }
 
-#wrap #menu {
-  
+#wrap ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
 }
 
 #wrap img {
