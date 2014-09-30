@@ -23,3 +23,11 @@ h1#title {
   max-width: 100%;
   height: auto;
 }
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  #wrap {
+    padding: 10px 0;
+  }
+}
+
+
