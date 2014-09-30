@@ -1,6 +1,7 @@
 body {
   font-family: Consolas, "Lucida Console", Monaco, monospace;
   font-size: 14px;
+  margin: 0 10px;
 }
 
 #wrap {
