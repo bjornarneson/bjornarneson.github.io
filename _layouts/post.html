@@ -8,11 +8,17 @@ layout: default
 
 <div class="post-body">
 {{ content }}
+
+<!--
 {% if page.tags %}
 <p> Tagged: {{ page.tags | array_to_sentence_string }}. </p>
 {% endif %}
+-->
+
 {% if page.external-url %}
-{% assign url = page.external-url | split: '/' %}
-<p>Quoted from: <a href="{{ page.external-url }}">{{ url[2] }}</a>. </p>
+  {% assign url = page.external-url | split: '/' %}
+  <p>Quoted from: <a href="{{ page.external-url }}">{{ url[2] }}</a>. </p>
 {% endif %}
+
+  
 </div>
