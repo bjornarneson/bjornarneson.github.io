@@ -3,7 +3,6 @@ layout: post
 category: blog
 published: true
 title: Summertime
-sticky: true
 ---
 
 We've got a few more days (at least) of patio weather here in Minnesota. Take advantage of it. 
