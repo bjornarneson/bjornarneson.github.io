@@ -1,1 +1,1 @@
-This is the git workshop for bjornarneson.com, the personal website of one Bjorn Arneson.
+Personal website of Bjorn Arneson
