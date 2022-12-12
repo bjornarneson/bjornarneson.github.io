@@ -4,8 +4,11 @@ name: 'Bjorn Arneson'
 email: mail@bjornarneson.com
 slogan: 'Jack of Some Trades'
 permalink: /posts/:year/:month/:day/:title/
-include:
- - .well-known
+mastodon: bjorn@mstdn.social
+
+# Include these files/folders that are excluded by default
+include: [ "/.well-known" ]
+
 menus:
   main:
     - title: 'home'
