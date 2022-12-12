@@ -1,0 +1,23 @@
+{
+  "subject": "acct:bjorn@mstdn.social",
+  "aliases": [
+    "https://mstdn.social/@bjorn",
+    "https://mstdn.social/users/bjorn"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mstdn.social/@bjorn"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mstdn.social/users/bjorn"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mstdn.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
