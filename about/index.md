@@ -23,4 +23,4 @@ I work with the Senate E-12 Education Committees on issues ranging from general 
 funding and school board policy, to teacher licensure and local library issues, and most everything 
 in between. The job is quite a lot of fun.
 
-You've read this far -- astounding! I'm impressed. 
+You've read this far -- astounding! I'm very impressed. 
